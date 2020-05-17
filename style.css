@@ -10,6 +10,10 @@ h1 {
     margin: 0;
 }
 
+#task {
+    font-size: 40px;
+}
+
 #body {
     background-image: url('https://c4.wallpaperflare.com/wallpaper/820/335/808/flowers-background-tree-pink-wallpaper-preview.jpg');
     background-position: center;
