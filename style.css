@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DM Mono', monospace;
+    font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+    font-size: 70px;
+    margin: 0;
+}
+
+#body {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/820/335/808/flowers-background-tree-pink-wallpaper-preview.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    overflow: auto;
+}
+
+#list-container {
+    margin: 20px;
+}
