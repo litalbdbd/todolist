@@ -12,9 +12,11 @@ function add() {
     sp1.appendChild(x);
     sp2.appendChild(task)
     var task_x_container = document.createElement("DIV");
+    task_x_container.setAttribute("id", "task_x_container")
     task_x_container.appendChild(sp1);
     task_x_container.appendChild(sp2);
-    document.getElementById("list").appendChild(task_x_container);
+    if (document.getElementById("myText").value != "")
+        document.getElementById("list").appendChild(task_x_container);
 
 
 }
