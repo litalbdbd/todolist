@@ -10,8 +10,8 @@ h1 {
     margin: 0;
 }
 
-#task {
-    font-size: 40px;
+.task {
+    font-size: 35px;
 }
 
 #body {
