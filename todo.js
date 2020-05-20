@@ -37,6 +37,21 @@ function removeTask(e) {
     }
 }
 
+document.addEventListener("click", lineRemove);
+
+
+function lineRemove(e) {
+    var element = e.target;
+    if (element.className == 'task') {
+        e.target.style.textDecorationLine = "line-through";
+        e.target.setAttribute("class", "taskDone");
+    } else if (element.className == 'taskDone') {
+        e.target.style.textDecorationLine = "none";
+        e.target.setAttribute("class", "task");
+    }
+}
+
+
 document.getElementById("myText").addEventListener("click", resetInput);
 
 function resetInput() {

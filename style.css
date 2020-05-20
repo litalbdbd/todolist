@@ -10,7 +10,8 @@ h1 {
     margin: 0;
 }
 
-.task {
+.task,
+.taskDone {
     font-size: 20px;
 }
 
