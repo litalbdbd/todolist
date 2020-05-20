@@ -36,3 +36,9 @@ function removeTask(e) {
         e.target.parentElement.parentElement.remove();
     }
 }
+
+document.getElementById("myText").addEventListener("click", resetInput);
+
+function resetInput() {
+    document.getElementById("myText").value = ""
+}
