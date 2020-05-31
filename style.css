@@ -18,6 +18,13 @@
                 margin-left: 60px;
             }
             
+            .animate__animated.animate__tada {
+                display: inline-block;
+                margin: 0 0.5rem;
+                animation-duration: 3s;
+                --animate-repeat: 3;
+            }
+            
             #h1-and-img {
                 display: flex;
             }
